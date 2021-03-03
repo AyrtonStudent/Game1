@@ -1,50 +1,57 @@
 using namespace std;
 #include <iostream>
 
-void outputUserDirection(string direction)
-{
-	if (direction == "North" || direction == "East" || direction == "South" || direction == "West")
-	{
-		string movementOutput = "Player moved ";
-		cout << movementOutput << direction << ".";
-	}
-	else
-	{
-		string incorrectInput = "Movement entered is incorrect, try again.";
-		cout << incorrectInput;
-	}
-}
+class Player 
+{	
+public:
+	int xCoordinate = 0;
+	int yCoordinate = 0;
 
-void outputUserPosition(int xcoordinate, int ycoordinate)
-{
-	cout << xcoordinate << "," << ycoordinate << endl;
-}
+	void outputUserDirection(string direction)
+	{
+		if (direction == "North" || direction == "East" || direction == "South" || direction == "West")
+		{
+			string movementOutput = "Player moved ";
+			cout << movementOutput << direction << ".";
+		}
+		else
+		{
+			string incorrectInput = "Movement entered is incorrect, try again.";
+			cout << incorrectInput;
+		}
+	}
 
-void updateUserPosition(string direction, int &xcoordinate, int &ycoordinate)
-{
-	if (direction == "North")
+	void outputUserPosition()
 	{
-		ycoordinate++;
+		cout << xCoordinate << "," << yCoordinate << endl;
 	}
-	else if (direction == "East")
+
+	void updateUserPosition(string direction)
 	{
-		xcoordinate++;
+		if (direction == "North")
+		{
+			yCoordinate++;
+		}
+		else if (direction == "East")
+		{
+			xCoordinate++;
+		}
+		else if (direction == "South")
+		{
+			yCoordinate--;
+		}
+		else if (direction == "West")
+		{
+			xCoordinate--;
+		}
+		outputUserPosition();
 	}
-	else if (direction == "South")
-	{
-		ycoordinate--;
-	}
-	else if (direction == "West")
-	{
-		xcoordinate--;
-	}
-	outputUserPosition(xcoordinate, ycoordinate);
-}
+};
 
 int main()
 {
-	int xCoordinate = 0;
-	int yCoordinate = 0;
+	Player player;
+	
 
 	while (true)
 	{
@@ -52,7 +59,7 @@ int main()
 		cout << playerInstruction << endl;
 		string input;
 		cin >> input;
-		outputUserDirection(input);
-		updateUserPosition(input, xCoordinate, yCoordinate);
+		player.outputUserDirection(input);
+		player.updateUserPosition(input);
 	}
 }
