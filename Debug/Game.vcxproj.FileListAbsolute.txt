@@ -1,0 +1,2 @@
+C:\Users\ayrto\Desktop\Files\Second Year\Programming C++\Game\Debug\Game.exe
+C:\Users\ayrto\Desktop\Files\Second Year\Programming C++\Game\Debug\Game.pdb
