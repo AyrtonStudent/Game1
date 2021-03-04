@@ -4,8 +4,8 @@ using namespace std;
 class Player 
 {	
 public:
-	int xCoordinate = 0;
-	int yCoordinate = 0;
+	int xCoordinate = 4;
+	int yCoordinate = 4;
 
 	void outputUserDirection(string direction)
 	{
@@ -23,14 +23,14 @@ public:
 
 	void outputUserPosition()
 	{
-		cout << xCoordinate << "," << yCoordinate << endl;
+		cout << "Column " << xCoordinate << ", Row " << yCoordinate << endl;
 	}
 
 	void updateUserPosition(string direction)
 	{
 		if (direction == "North")
 		{
-			yCoordinate++;
+			yCoordinate--;
 		}
 		else if (direction == "East")
 		{
@@ -38,7 +38,7 @@ public:
 		}
 		else if (direction == "South")
 		{
-			yCoordinate--;
+			yCoordinate++;
 		}
 		else if (direction == "West")
 		{
@@ -48,10 +48,34 @@ public:
 	}
 };
 
+class Map 
+{	
+public:
+	char map[10][10] = 
+	{{'.', '.', '.', '.', '.', '.', '.', '.', '.', '.'}, 
+	{'.', '.', '.', '.', '.', '.', '.', '.', '.', '.'}, 
+	{'.', '.', '.', '.', '.', '.', '.', '.', '.', '.'}, 
+	{'.', '.', '.', '.', 'T', '.', '.', '.', '.', '.'}, 
+	{'.', '.', '.', '.', '.', '.', '.', '.', '.', '.'}, 
+	{'.', '.', '.', '.', '.', '.', '.', '.', '.', '.'}, 
+	{'.', '.', '.', '.', '.', '.', '.', '.', '.', '.'}, 
+	{'.', '.', '.', '.', '.', '.', '.', '.', '.', '.'}, 
+	{'.', '.', '.', '.', '.', '.', '.', '.', '.', '.'}, 
+	{'.', '.', '.', '.', '.', '.', '.', '.', '.', '.'}};
+
+	char getCharAt(int x, int y)
+	{
+		//return map and make player take damage if hits 'T'
+		cout << map[y][x] << endl;
+	}
+};
+
+
+
 int main()
 {
 	Player player;
-	
+	Map map;
 
 	while (true)
 	{
@@ -61,6 +85,7 @@ int main()
 		cin >> input;
 		player.outputUserDirection(input);
 		player.updateUserPosition(input);
+		map.getCharAt(player.xCoordinate, player.yCoordinate);
 	}
 
 	// I've cloned your repo - Joe
