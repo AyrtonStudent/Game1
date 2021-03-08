@@ -14,10 +14,10 @@ int main()
 		cout << playerInstruction << endl;
 		string input;
 		cin >> input;
+		int damage = 13;
 		player.outputUserDirection(input);
 		player.updateUserPosition(input);
+		player.takeDamage(damage);
 		map.getCharAt(player.xCoordinate, player.yCoordinate);
 	}
-
-	// I've cloned your repo - Joe
 }

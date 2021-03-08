@@ -20,7 +20,6 @@ void Player::outputUserPosition()
     cout << "Column " << xCoordinate << ", Row " << yCoordinate << endl;
 }
 
-
 void Player::updateUserPosition(string direction)
 {
     if (direction == "North")
@@ -40,4 +39,8 @@ void Player::updateUserPosition(string direction)
         xCoordinate--;
     }
     outputUserPosition();
+}
+
+void Player::takeDamage(int damage) {
+    health -= damage;
 }
