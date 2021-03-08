@@ -1,2 +1,2 @@
 ﻿  Source.cpp
-  Game.vcxproj -> C:\Users\ayrto\Desktop\Files\Second Year\Programming C++\Game\Debug\Game.exe
+C:\Users\ayrto\Desktop\Files\Second Year\Programming C++\Game\Source.cpp(70): error C4716: 'Map::getCharAt': must return a value
