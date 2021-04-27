@@ -1,4 +1,3 @@
-
 #include "Player.h"
 
 void Player::outputUserDirection(string direction)
@@ -41,6 +40,18 @@ void Player::updateUserPosition(string direction)
     outputUserPosition();
 }
 
-void Player::takeDamage(int damage) {
+void Player::takeDamage(int damage)
+{
     health -= damage;
+    cout << "Damage taken " << damage << "." << endl;
+    cout << "Current health " << health << "." << endl;
+}
+
+void Player::handleActionFromMap(char mapChar)
+{
+    if (mapChar == 'T')
+    {
+        cout << "You've stepped on a trap." << endl;
+        takeDamage(10);
+    }
 }

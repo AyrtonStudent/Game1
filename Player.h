@@ -10,16 +10,18 @@ using namespace std;
 class Player
         {
     public:
-        int xCoordinate = 7;
-        int yCoordinate = 12;
+        int xCoordinate = 4;
+        int yCoordinate = 4;
         int health = 100;
 
         void outputUserDirection(string direction);
         void outputUserPosition();
         void updateUserPosition(string direction);
         void takeDamage(int damage);
+        void handleActionFromMap (char mapChar);
 
 };
+
 
 
 

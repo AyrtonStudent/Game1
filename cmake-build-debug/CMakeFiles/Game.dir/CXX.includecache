@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/ayrto/Desktop/Files/Second Year/Programming C++/Game New/Game1/Player.cpp
+Player.h
+C:/Users/ayrto/Desktop/Files/Second Year/Programming C++/Game New/Game1/Player.h
+
+C:/Users/ayrto/Desktop/Files/Second Year/Programming C++/Game New/Game1/Player.h
+iostream
+-
+

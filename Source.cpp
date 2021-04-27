@@ -17,7 +17,6 @@ int main()
 		int damage = 13;
 		player.outputUserDirection(input);
 		player.updateUserPosition(input);
-		player.takeDamage(damage);
-		map.getCharAt(player.xCoordinate, player.yCoordinate);
+		player.handleActionFromMap(map.getCharAt(player.xCoordinate, player.yCoordinate));
 	}
 }

@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/ayrto/Desktop/Files/Second Year/Programming C++/Game/Map.cpp" "C:/Users/ayrto/Desktop/Files/Second Year/Programming C++/Game/cmake-build-debug/CMakeFiles/Game.dir/Map.cpp.obj"
-  "C:/Users/ayrto/Desktop/Files/Second Year/Programming C++/Game/Player.cpp" "C:/Users/ayrto/Desktop/Files/Second Year/Programming C++/Game/cmake-build-debug/CMakeFiles/Game.dir/Player.cpp.obj"
-  "C:/Users/ayrto/Desktop/Files/Second Year/Programming C++/Game/Source.cpp" "C:/Users/ayrto/Desktop/Files/Second Year/Programming C++/Game/cmake-build-debug/CMakeFiles/Game.dir/Source.cpp.obj"
+  "C:/Users/ayrto/Desktop/Files/Second Year/Programming C++/Game New/Game1/Map.cpp" "C:/Users/ayrto/Desktop/Files/Second Year/Programming C++/Game New/Game1/cmake-build-debug/CMakeFiles/Game.dir/Map.cpp.obj"
+  "C:/Users/ayrto/Desktop/Files/Second Year/Programming C++/Game New/Game1/Player.cpp" "C:/Users/ayrto/Desktop/Files/Second Year/Programming C++/Game New/Game1/cmake-build-debug/CMakeFiles/Game.dir/Player.cpp.obj"
+  "C:/Users/ayrto/Desktop/Files/Second Year/Programming C++/Game New/Game1/Source.cpp" "C:/Users/ayrto/Desktop/Files/Second Year/Programming C++/Game New/Game1/cmake-build-debug/CMakeFiles/Game.dir/Source.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

@@ -38,19 +38,19 @@ NULL=nul
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Users\ayrto\Desktop\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Users\ayrto\Downloads\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Users\ayrto\Desktop\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Users\ayrto\Downloads\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\ayrto\Desktop\Files\Second Year\Programming C++\Game"
+CMAKE_SOURCE_DIR = "C:\Users\ayrto\Desktop\Files\Second Year\Programming C++\Game New\Game1"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\ayrto\Desktop\Files\Second Year\Programming C++\Game\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\ayrto\Desktop\Files\Second Year\Programming C++\Game New\Game1\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles\Game.dir\depend.make
@@ -63,59 +63,59 @@ include CMakeFiles\Game.dir\flags.make
 
 CMakeFiles\Game.dir\Source.cpp.obj: CMakeFiles\Game.dir\flags.make
 CMakeFiles\Game.dir\Source.cpp.obj: ..\Source.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\ayrto\Desktop\Files\Second Year\Programming C++\Game\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Game.dir/Source.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\ayrto\Desktop\Files\Second Year\Programming C++\Game New\Game1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Game.dir/Source.cpp.obj"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Game.dir\Source.cpp.obj /FdCMakeFiles\Game.dir\ /FS -c "C:\Users\ayrto\Desktop\Files\Second Year\Programming C++\Game\Source.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Game.dir\Source.cpp.obj /FdCMakeFiles\Game.dir\ /FS -c "C:\Users\ayrto\Desktop\Files\Second Year\Programming C++\Game New\Game1\Source.cpp"
 <<
 
 CMakeFiles\Game.dir\Source.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/Source.cpp.i"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\Game.dir\Source.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\ayrto\Desktop\Files\Second Year\Programming C++\Game\Source.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\ayrto\Desktop\Files\Second Year\Programming C++\Game New\Game1\Source.cpp"
 <<
 
 CMakeFiles\Game.dir\Source.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/Source.cpp.s"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Game.dir\Source.cpp.s /c "C:\Users\ayrto\Desktop\Files\Second Year\Programming C++\Game\Source.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Game.dir\Source.cpp.s /c "C:\Users\ayrto\Desktop\Files\Second Year\Programming C++\Game New\Game1\Source.cpp"
 <<
 
 CMakeFiles\Game.dir\Player.cpp.obj: CMakeFiles\Game.dir\flags.make
 CMakeFiles\Game.dir\Player.cpp.obj: ..\Player.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\ayrto\Desktop\Files\Second Year\Programming C++\Game\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Game.dir/Player.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\ayrto\Desktop\Files\Second Year\Programming C++\Game New\Game1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Game.dir/Player.cpp.obj"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Game.dir\Player.cpp.obj /FdCMakeFiles\Game.dir\ /FS -c "C:\Users\ayrto\Desktop\Files\Second Year\Programming C++\Game\Player.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Game.dir\Player.cpp.obj /FdCMakeFiles\Game.dir\ /FS -c "C:\Users\ayrto\Desktop\Files\Second Year\Programming C++\Game New\Game1\Player.cpp"
 <<
 
 CMakeFiles\Game.dir\Player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/Player.cpp.i"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\Game.dir\Player.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\ayrto\Desktop\Files\Second Year\Programming C++\Game\Player.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\ayrto\Desktop\Files\Second Year\Programming C++\Game New\Game1\Player.cpp"
 <<
 
 CMakeFiles\Game.dir\Player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/Player.cpp.s"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Game.dir\Player.cpp.s /c "C:\Users\ayrto\Desktop\Files\Second Year\Programming C++\Game\Player.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Game.dir\Player.cpp.s /c "C:\Users\ayrto\Desktop\Files\Second Year\Programming C++\Game New\Game1\Player.cpp"
 <<
 
 CMakeFiles\Game.dir\Map.cpp.obj: CMakeFiles\Game.dir\flags.make
 CMakeFiles\Game.dir\Map.cpp.obj: ..\Map.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\ayrto\Desktop\Files\Second Year\Programming C++\Game\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Game.dir/Map.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\ayrto\Desktop\Files\Second Year\Programming C++\Game New\Game1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Game.dir/Map.cpp.obj"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Game.dir\Map.cpp.obj /FdCMakeFiles\Game.dir\ /FS -c "C:\Users\ayrto\Desktop\Files\Second Year\Programming C++\Game\Map.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Game.dir\Map.cpp.obj /FdCMakeFiles\Game.dir\ /FS -c "C:\Users\ayrto\Desktop\Files\Second Year\Programming C++\Game New\Game1\Map.cpp"
 <<
 
 CMakeFiles\Game.dir\Map.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/Map.cpp.i"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\Game.dir\Map.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\ayrto\Desktop\Files\Second Year\Programming C++\Game\Map.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\ayrto\Desktop\Files\Second Year\Programming C++\Game New\Game1\Map.cpp"
 <<
 
 CMakeFiles\Game.dir\Map.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/Map.cpp.s"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Game.dir\Map.cpp.s /c "C:\Users\ayrto\Desktop\Files\Second Year\Programming C++\Game\Map.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Game.dir\Map.cpp.s /c "C:\Users\ayrto\Desktop\Files\Second Year\Programming C++\Game New\Game1\Map.cpp"
 <<
 
 # Object files for target Game
@@ -132,9 +132,9 @@ Game.exe: CMakeFiles\Game.dir\Player.cpp.obj
 Game.exe: CMakeFiles\Game.dir\Map.cpp.obj
 Game.exe: CMakeFiles\Game.dir\build.make
 Game.exe: CMakeFiles\Game.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\ayrto\Desktop\Files\Second Year\Programming C++\Game\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Game.exe"
-	"C:\Users\ayrto\Desktop\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\Game.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\Game.dir\objects1.rsp @<<
- /out:Game.exe /implib:Game.lib /pdb:"C:\Users\ayrto\Desktop\Files\Second Year\Programming C++\Game\cmake-build-debug\Game.pdb" /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\ayrto\Desktop\Files\Second Year\Programming C++\Game New\Game1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Game.exe"
+	"C:\Users\ayrto\Downloads\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\Game.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\Game.dir\objects1.rsp @<<
+ /out:Game.exe /implib:Game.lib /pdb:"C:\Users\ayrto\Desktop\Files\Second Year\Programming C++\Game New\Game1\cmake-build-debug\Game.pdb" /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
 
 # Rule to build all files generated by this target.
@@ -147,6 +147,6 @@ CMakeFiles\Game.dir\clean:
 .PHONY : CMakeFiles\Game.dir\clean
 
 CMakeFiles\Game.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" "C:\Users\ayrto\Desktop\Files\Second Year\Programming C++\Game" "C:\Users\ayrto\Desktop\Files\Second Year\Programming C++\Game" "C:\Users\ayrto\Desktop\Files\Second Year\Programming C++\Game\cmake-build-debug" "C:\Users\ayrto\Desktop\Files\Second Year\Programming C++\Game\cmake-build-debug" "C:\Users\ayrto\Desktop\Files\Second Year\Programming C++\Game\cmake-build-debug\CMakeFiles\Game.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" "C:\Users\ayrto\Desktop\Files\Second Year\Programming C++\Game New\Game1" "C:\Users\ayrto\Desktop\Files\Second Year\Programming C++\Game New\Game1" "C:\Users\ayrto\Desktop\Files\Second Year\Programming C++\Game New\Game1\cmake-build-debug" "C:\Users\ayrto\Desktop\Files\Second Year\Programming C++\Game New\Game1\cmake-build-debug" "C:\Users\ayrto\Desktop\Files\Second Year\Programming C++\Game New\Game1\cmake-build-debug\CMakeFiles\Game.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles\Game.dir\depend
 
